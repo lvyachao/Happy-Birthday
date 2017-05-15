@@ -1,98 +1,107 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<title>Happy Birthday</title>
+	<title>I just wanna say something to you...</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<style type="text/css">
-		@font-face {
-			font-family: digit;
-			src: url('digital-7_mono.ttf') format("truetype");
-		}
-	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/garden_dev.js"></script>
-    <script type="text/javascript" src="js/functions_dev.js"></script>
-</head>
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+<!--     <script type="text/javascript" src="js/functions_dev.js"></script>
+ -->
+ </head>
 
 <body>
-	<div id="mainDiv">
-		<div id="content">
-			<div id="code">
-				<span class="space"/><span class="string">For 马士琴</span><br/>
-				<span class="space"/><span class="string">你不是经常问我，</span><br />
-				<span class="space"/><span class="string">我直愣愣的看着你，想啥呢</span><br />
-				<span class="space"/><span class="string">绝大多数时候其实啥也没想</span><br />
-				<span class="space"/><span class="string">偶尔就算想了，也不知道自己想啥</span><br />
-				<span class="space"/><span class="string">每次看到你，我都觉得有点乱</span><br />
-				<span class="space"/><span class="string">逻辑理性似乎都弱了很多</span><br/>
+    <textarea id="source">
 
-				<span class="space"/><span class="string">~</span><br/>
-				<span class="space"/><span class="string">L用~</span><br />
-				<span class="space"/><span class="string"></span><br/>
-				<span class="space"/><span class="string">我也了</span><br />
-				<span class="space"/><span class="string">好</span><br/>
-				<span class="space"/><span class="string">你过但是</span><br/>
-				<span class="space"/><span class="string">谁~</span><br/>
-				<span class="space"/><span class="string">算</span><br/>
-				<span class="space"/><span class="string">要不要危害”呢。。？</span><br/>
-				<span class="space"/><span class="string">(｡</span><br/>
-				<span class="space"/><span class="string">你吧</span><br/>
+		class: center, middle
+
+		# Yes, it is
+
+		---
+		class: center, middle
+
+		# It is another one 
+
+		---
+		class: center, middle
+
+		# One month is short
+
+		---
+		class: center, middle
+
+		# So short compared with our life
+
+		---
+		class: center, middle
 
 
+		# One month is also long
 
-			</div>
-			<div id="loveHeart">
-				<canvas id="garden"></canvas>
-				<div id="words">
-					<div id="messages">
-					</br>
-					</br>
-					</br>
-					</br>
-						我就当做现在是你生日咯~网上找了一个计时器的代码~你现在已经生下来这个时间咯：
-						<div id="elapseClock"></div>
-					</div>
-					<div id="loveu">
-						最后，<br/>
-						<div><span class="string">开心点啦~无所谓就好~你所谓的东西已经太多了~</span></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript">
-		var offsetX = $("#loveHeart").width() / 2;
-		var offsetY = $("#loveHeart").height() / 2 - 60;
-		var together = new Date();
-		together.setFullYear(1991,8, 10);
-		together.setHours(8);
-		together.setMinutes(0);
-		together.setSeconds(0);
-		together.setMilliseconds(0);
-		
-		if (!document.createElement('canvas').getContext) {
-			var msg = document.createElement("div");
-			msg.id = "errorMsg";
-			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
-			document.body.appendChild(msg);
-			$("#code").css("display", "none")
-			$("#copyright").css("position", "absolute");
-			$("#copyright").css("bottom", "10px");
-		    document.execCommand("stop");
-		} else {
-			setTimeout(function () {
-				startHeartAnimation();
-			}, 5000);
+		---
+		class: center, middle
 
-			timeElapse(together);
-			setInterval(function () {
-				timeElapse(together);
-			}, 500);
+		# Long enough
 
-			adjustCodePosition();
-			$("#code").typewriter();
-		}
-	</script>
+		---
+		class: center, middle
+
+		# Long enough leave some many memories
+
+		---
+		class: center, middle
+
+		# many pictures and thoughts
+
+		---
+		class: center, middle
+
+		# Long enough let me decided
+
+		---
+		class: center, middle
+
+		# Love you sometime is not a status
+
+		---
+		class: center, middle
+
+		# But a decision
+
+		---
+		class: center, middle
+
+		# I had decided to love you forever
+
+		---
+		class: center, middle
+
+		# Yes, it is another one that I used to say
+
+		---
+		class: center, middle
+
+		# I love you
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+
 </body>
 </html>
