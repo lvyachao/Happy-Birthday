@@ -1,13 +1,15 @@
 # Greets
+
 =========
 Greets is a projects that provide ready-to-use HTML5 static templates flavor presentation tool made for different purpooses! It comes with the template for confession, the template for celebrations, and the templates for make official presentation... Each branch for this project comes with a template. Feel free to fork and contributes!!!!!
 
 ### RemarkJS branch
-=========
 
+=========
 This branch make use of [RemarkJS](https://github.com/gnab/remark). Easy to use markdown-based template for presentation! 
 
 ### Getting Started
+
 =========
 It takes only a few, simple steps to get up and running with remark:
 
