@@ -21,5 +21,5 @@ It takes only a few, simple steps to get up and running with remark:
 3. Edit the Markdown and/or CSS styles as needed, save and refresh!
 4. Press C to clone a display; then press P to switch to presenter mode
 
-For more detail, pls check the "[Getting Started](https://github.com/gnab/remark#getting-started)" section.
+For more detail, pls check the RemarkJS's "[Getting Started](https://github.com/gnab/remark#getting-started)" section.
 
